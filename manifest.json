@@ -4,7 +4,7 @@
   "description": "骨格タイプ（ストレート/ウェーブ/ナチュラル）を8問で診断し、似合う服・コーデを提案。避けるべきアイテムと得意なシルエットがわかります。",
   "start_url": "/body-frame-advisor/",
   "display": "standalone",
-  "background_color": "#f8faf9",
+  "background_color": "#ffffff",
   "theme_color": "#7c3aed",
   "lang": "ja",
   "icons": [
