@@ -218,19 +218,16 @@ document.addEventListener('click',function(e){
 <style id="design-v2">
 :root{--bf-primary:#d8b4fe;--bf-primary-d:#a855f7;--bf-primary-dd:#7c3aed;--bf-accent:#f97316;--bf-accent-d:#ea580c;--bf-lav:#faf5ff;--bf-lav2:#f3e8ff;--bf-ink:#3b1f47;--bf-line:#efe6f7}
 .bf-wrap{max-width:1080px;margin:0 auto;padding:0 18px}
-.bf-hero{background:linear-gradient(135deg,#7c3aed 0%,#a855f7 45%,#d8b4fe 78%,#fbe9da 100%);padding:46px 0 36px;position:relative;overflow:hidden}
-.bf-hero::before{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(253,186,116,.45),transparent 70%);top:-90px;right:-60px;pointer-events:none}
+.bf-hero{background:linear-gradient(160deg,var(--bf-lav) 0%,var(--bf-lav2) 60%,#fbe9da 100%);padding:38px 0 30px;position:relative;overflow:hidden}
 .bf-hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center}
 .bf-pill{display:inline-block;background:#fff;color:var(--bf-primary-dd);font-size:.74rem;font-weight:800;padding:5px 13px;border-radius:999px;margin-bottom:12px;box-shadow:0 3px 10px rgba(124,58,237,.12)}
-.bf-hero h1.bf-h1{font-size:2.25rem;font-weight:900;line-height:1.28;color:#fff;margin:0 0 12px;text-shadow:0 2px 16px rgba(45,12,70,.35)}
-.bf-hero h1.bf-h1 .ac{color:#fde047}
-.bf-hero p.bf-lead{color:#f6edff;font-size:.98rem;max-width:440px;margin:0 0 18px;text-shadow:0 1px 8px rgba(45,12,70,.25)}
-.bf-hero .bf-trust{color:#f3e8ff}
-.bf-hero .bf-trust b{color:#fde047}
+.bf-hero h1.bf-h1{font-size:2.1rem;font-weight:900;line-height:1.3;color:var(--bf-ink);margin:0 0 12px}
+.bf-hero h1.bf-h1 .ac{color:var(--bf-accent)}
+.bf-hero p.bf-lead{color:#5b4a66;font-size:.96rem;max-width:440px;margin:0 0 18px}
 .bf-cta{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--bf-accent),var(--bf-accent-d));color:#fff !important;font-weight:800;padding:13px 30px;border-radius:999px;font-size:1rem;box-shadow:0 8px 20px rgba(249,115,22,.34);border:none;cursor:pointer;text-decoration:none;transition:transform .15s}
 .bf-cta:hover{transform:translateY(-2px)}
-.bf-hero-photo{border-radius:20px;overflow:hidden;box-shadow:0 22px 54px rgba(45,12,70,.32);border:6px solid #fff}
-.bf-hero-photo img{width:100%;height:360px;object-fit:cover;object-position:center 20%;display:block}
+.bf-hero-photo{border-radius:20px;overflow:hidden;box-shadow:0 18px 44px rgba(124,58,237,.2);border:5px solid #fff}
+.bf-hero-photo img{width:100%;height:300px;object-fit:cover;display:block}
 .bf-trust{display:flex;gap:16px;margin-top:14px;font-size:.78rem;font-weight:700;color:#6b5573;flex-wrap:wrap}
 .bf-trust b{color:var(--bf-primary-dd)}
 .bf-tabs{display:flex;gap:10px;justify-content:center;margin-top:24px;flex-wrap:wrap}
@@ -239,8 +236,7 @@ document.addEventListener('click',function(e){
 .bf-tab:hover{border-color:var(--bf-primary-d);color:var(--bf-primary-dd)}
 .bf-tab.active:hover{color:#fff}
 .bf-sec{padding:46px 0}
-.bf-sec.alt{background:linear-gradient(180deg,#faf5ff 0%,#f3e8ff 55%,#fbe7f3 100%)}
-.bf-sec.tint{background:linear-gradient(180deg,#fff 0%,#faf5ff 100%)}
+.bf-sec.alt{background:var(--bf-lav)}
 .bf-stitle{font-size:1.45rem;font-weight:800;text-align:center;color:var(--bf-ink);margin:0 0 4px}
 .bf-ssub{text-align:center;color:#6b7280;font-size:.9rem;margin:0 0 26px}
 .bf-tcards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
@@ -473,7 +469,7 @@ document.addEventListener('click',function(e){
   </section>
 
   <!-- ===== Design v2: パーソナルカラー ===== -->
-  <section class="bf-sec tint">
+  <section class="bf-sec">
     <div class="bf-wrap">
       <h2 class="bf-stitle">パーソナルカラーも一緒にチェック</h2>
       <p class="bf-ssub">似合う「色」と似合う「形」を組み合わせて、本当に似合う服へ</p>
@@ -520,7 +516,7 @@ document.addEventListener('click',function(e){
   </section>
 
   <!-- ===== Design v2: SNSシェア ===== -->
-  <section class="bf-sec tint">
+  <section class="bf-sec">
     <div class="bf-wrap" style="text-align:center">
       <h2 class="bf-stitle">診断結果をシェアしよう</h2>
       <p class="bf-ssub">あなたの骨格タイプを友達にも教えてあげましょう</p>
